@@ -1,5 +1,5 @@
 {
-  "name": "@sentry/rrweb",
+  "name": "@eitmn/sentry-rrweb",
   "version": "0.2.0",
   "description": "Integration between sentry and rrweb.",
   "main": "dist/index.js",
@@ -14,7 +14,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/getsentry/sentry-rrweb.git"
+    "url": "git+https://github.com/eitmn/sentry-rrweb.git"
   },
   "author": "David Cramer",
   "license": "Apache-2.0",
@@ -23,13 +23,13 @@
   },
   "homepage": "https://github.com/getsentry/sentry-rrweb#readme",
   "peerDependencies": {
-    "rrweb": ">=0.7.0",
+    "rrweb": ">=0.9.0",
     "@sentry/browser": ">=4.0.0"
   },
   "dependencies": {},
   "devDependencies": {
     "@babel/core": "^7.7.2",
-    "rrweb": "^0.7.33",
+    "rrweb": "^0.9.14",
     "@sentry/browser": "^5.10.2",
     "@sentry/types": "^5.10.0",
     "rimraf": "^3.0.0",
